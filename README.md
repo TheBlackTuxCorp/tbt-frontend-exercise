@@ -7,8 +7,8 @@
 - `eslint` for linting the code. 
 
 ## Running
-`npm i && npm start` and then open `http://localhost:8080`
-`npm test` to run any tests and eslint
+- `npm i && npm start` and then open `http://localhost:8080`
+- `npm test` to run any tests and eslint
 
 ## Server
 Using express, the server is doing the followings:
