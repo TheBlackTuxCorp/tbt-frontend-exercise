@@ -7,7 +7,6 @@ import {
   BrowserRouter as Router,
   Route,
 } from 'react-router-dom';
-import Layout from '../layout';
 import createReducer from '../reducers';
 import Home from '../pages/home';
 import { appInitializedAction } from '../actions/app.actions';
@@ -31,16 +30,12 @@ const configureStore = (initialState = {}) => {
 };
 
 const store = configureStore({});
-const Test = () => <h2>Test</h2>;
 
 const render = () => {
   ReactDOM.render(
     <Provider store={store}>
       <Router>
-        <Layout>
-          <Route exact path="/" component={Home} />
-          <Route path="/test" component={Test} />
-        </Layout>
+        <Route exact path="/" component={Home} />
       </Router>
     </Provider>,
     document.getElementById('app'),
