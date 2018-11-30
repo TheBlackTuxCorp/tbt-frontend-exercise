@@ -9,16 +9,6 @@
     "test": "npm run lint && jest",
     "tdd": "jest --watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mrharel/react-code-challenge-boilerplate.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mrharel/react-code-challenge-boilerplate/issues"
-  },
-  "homepage": "https://github.com/mrharel/react-code-challenge-boilerplate#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
     "chalk": "^2.1.0",
