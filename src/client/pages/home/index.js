@@ -8,7 +8,7 @@ class Home extends React.Component {
 
     return (
       <div>
-        Put your code here!
+        Put your amazing code here!
       </div>
     );
   }
